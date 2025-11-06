@@ -1,0 +1,20 @@
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+python-dotenv>=1.0.0
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+
+# Math Processing
+sympy==1.12
+numpy>=1.26.0
+
+# Image Processing
+Pillow>=10.0.0
+
+# Utilities
+httpx==0.26.0
+python-multipart==0.0.6
+
+# No API keys needed! 🎉
+# All LLM/Database dependencies removed - runs on mock data
+

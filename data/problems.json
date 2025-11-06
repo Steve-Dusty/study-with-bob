@@ -1,0 +1,204 @@
+{
+  "problems": [
+    {
+      "id": 1,
+      "text": "Solve for x: 2x + 5 = 13",
+      "topic": "Algebra",
+      "difficulty": "Easy",
+      "correctAnswer": "x = 4",
+      "commonMistakes": [
+        {
+          "pattern": "x = 9",
+          "feedback": "You wrote x = 9. Remember to subtract 5 from both sides first (13 - 5 = 8), then divide by 2."
+        },
+        {
+          "pattern": "x = -4",
+          "feedback": "You wrote x = -4 instead of x = 4. When you subtract 5 from both sides, you get 2x = 8. Check your sign when dividing!"
+        },
+        {
+          "pattern": "2x = 13",
+          "feedback": "You forgot to subtract 5 from both sides first. The equation should become 2x = 8 before dividing."
+        }
+      ],
+      "hints": [
+        {
+          "attempt": 1,
+          "title": "First, isolate the term with x",
+          "message": "You need to get the 2x by itself. What operation would eliminate the +5 on the left side?"
+        },
+        {
+          "attempt": 2,
+          "title": "Subtract 5 from both sides",
+          "message": "After subtracting 5: 2x = 8. Now divide both sides by 2 to solve for x."
+        },
+        {
+          "attempt": 3,
+          "title": "Step by step solution",
+          "message": "2x + 5 = 13\n2x = 13 - 5\n2x = 8\nx = 8 ÷ 2\nx = 4"
+        }
+      ],
+      "successMessage": "Perfect! You correctly isolated the variable by subtracting 5 from both sides, then dividing by 2.",
+      "successOnAttempt": 2
+    },
+    {
+      "id": 2,
+      "text": "Expand: (x - 3)²",
+      "topic": "Algebra",
+      "difficulty": "Easy",
+      "correctAnswer": "x² - 6x + 9",
+      "commonMistakes": [
+        {
+          "pattern": "x² - 9",
+          "feedback": "You wrote x² - 9, but that's the difference of squares formula. For (x - 3)², use (a - b)² = a² - 2ab + b²."
+        },
+        {
+          "pattern": "x² + 6x + 9",
+          "feedback": "You wrote +6x instead of -6x. When expanding (x - 3)², the middle term should be negative: -2(x)(3) = -6x."
+        },
+        {
+          "pattern": "x² - 3x + 9",
+          "feedback": "Close! But the middle term should be -6x, not -3x. Remember: -2ab = -2(x)(3) = -6x."
+        }
+      ],
+      "hints": [
+        {
+          "attempt": 1,
+          "title": "Use the binomial square formula",
+          "message": "Remember: (a - b)² = a² - 2ab + b². Here, a = x and b = 3."
+        },
+        {
+          "attempt": 2,
+          "title": "Calculate each term",
+          "message": "a² = x²\n-2ab = -2(x)(3) = -6x\nb² = 3² = 9\n\nNow combine them!"
+        },
+        {
+          "attempt": 3,
+          "title": "Final answer",
+          "message": "(x - 3)² = x² - 6x + 9"
+        }
+      ],
+      "successMessage": "Excellent! You applied the binomial square formula correctly: (a - b)² = a² - 2ab + b².",
+      "successOnAttempt": 3
+    },
+    {
+      "id": 3,
+      "text": "Find the derivative: f(x) = 3x² + 2x - 5",
+      "topic": "Calculus",
+      "difficulty": "Medium",
+      "correctAnswer": "f'(x) = 6x + 2",
+      "commonMistakes": [
+        {
+          "pattern": "f'(x) = 6x + 2x",
+          "feedback": "You wrote f'(x) = 6x + 2x. Remember, the derivative of 2x is just 2, not 2x. The power rule gives you n·x^(n-1)."
+        },
+        {
+          "pattern": "f'(x) = 3x + 2",
+          "feedback": "You wrote f'(x) = 3x + 2. For the 3x² term, multiply the coefficient by the power: 3 × 2 = 6, giving 6x."
+        },
+        {
+          "pattern": "f'(x) = 6x + 2 - 5",
+          "feedback": "You wrote f'(x) = 6x + 2 - 5. The derivative of a constant (-5) is 0, so it disappears!"
+        }
+      ],
+      "hints": [
+        {
+          "attempt": 1,
+          "title": "Apply the power rule to each term",
+          "message": "For x^n, the derivative is n·x^(n-1). Don't forget: the derivative of a constant is 0."
+        },
+        {
+          "attempt": 2,
+          "title": "Work through each term",
+          "message": "d/dx(3x²) = 6x\nd/dx(2x) = 2\nd/dx(-5) = 0\n\nNow combine them!"
+        },
+        {
+          "attempt": 3,
+          "title": "Complete solution",
+          "message": "f'(x) = 6x + 2"
+        }
+      ],
+      "successMessage": "Great work! You correctly applied the power rule to each term and remembered that constants have a derivative of 0.",
+      "successOnAttempt": 2
+    },
+    {
+      "id": 4,
+      "text": "Simplify: (12x³y²) / (3xy)",
+      "topic": "Algebra",
+      "difficulty": "Medium",
+      "correctAnswer": "4x²y",
+      "commonMistakes": [
+        {
+          "pattern": "4xy",
+          "feedback": "You wrote 4xy, but you need to subtract exponents when dividing. x³/x = x² (not x¹), and y²/y = y¹."
+        },
+        {
+          "pattern": "4x³y²",
+          "feedback": "You got the coefficient right (12/3 = 4), but forgot to subtract the exponents! x³/x = x², y²/y = y."
+        },
+        {
+          "pattern": "12x²y",
+          "feedback": "Remember to divide the coefficients too: 12 ÷ 3 = 4, not 12."
+        }
+      ],
+      "hints": [
+        {
+          "attempt": 1,
+          "title": "Divide coefficients and subtract exponents",
+          "message": "When dividing: divide numbers, and for variables use x^a / x^b = x^(a-b)."
+        },
+        {
+          "attempt": 2,
+          "title": "Break it down step by step",
+          "message": "12/3 = 4\nx³/x = x³⁻¹ = x²\ny²/y = y²⁻¹ = y¹ = y\n\nNow combine!"
+        },
+        {
+          "attempt": 3,
+          "title": "Final answer",
+          "message": "4x²y"
+        }
+      ],
+      "successMessage": "Perfect! You correctly divided the coefficients and subtracted the exponents for each variable.",
+      "successOnAttempt": 3
+    },
+    {
+      "id": 5,
+      "text": "Solve: √(x + 5) = 4",
+      "topic": "Algebra",
+      "difficulty": "Medium",
+      "correctAnswer": "x = 11",
+      "commonMistakes": [
+        {
+          "pattern": "x = 21",
+          "feedback": "You wrote x = 21. It looks like you calculated (4 + 5)² instead. First square both sides: x + 5 = 16, then subtract 5."
+        },
+        {
+          "pattern": "x = 9",
+          "feedback": "You wrote x = 9. You squared 4 to get 16, but forgot to subtract 5! After squaring: x + 5 = 16, so x = 11."
+        },
+        {
+          "pattern": "x = -1",
+          "feedback": "You wrote x = -1. Check your arithmetic: if x + 5 = 16, then x = 16 - 5 = 11 (not -1)."
+        }
+      ],
+      "hints": [
+        {
+          "attempt": 1,
+          "title": "Eliminate the square root",
+          "message": "To remove the square root, square both sides of the equation. What is 4²?"
+        },
+        {
+          "attempt": 2,
+          "title": "After squaring both sides",
+          "message": "√(x + 5) = 4\nSquare both sides: x + 5 = 16\nNow subtract 5 from both sides."
+        },
+        {
+          "attempt": 3,
+          "title": "Complete solution",
+          "message": "x + 5 = 16\nx = 16 - 5\nx = 11"
+        }
+      ],
+      "successMessage": "Excellent! You squared both sides to eliminate the square root, then solved the resulting linear equation.",
+      "successOnAttempt": 2
+    }
+  ]
+}
